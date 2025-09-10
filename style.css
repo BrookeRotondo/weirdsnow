@@ -101,7 +101,7 @@ footer {
 
 /* Style for the home page background only */
 .home-page {
-    background-image: url('mountains.jpg');
+    background-image: url('main/mountains.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   /* Optional: keeps the image in place when scrolling */
