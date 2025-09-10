@@ -117,10 +117,7 @@ footer {
 
 .about-content {
   display: flex; /* Makes the children flexible */
-  flex-direction: row; /* Arranges the text and photo in a row */
-  /*
   flex-direction: column; /* Stacks text and photo vertically on mobile */
-  /**/
   gap: 2rem; /* Adds space between the text and photo */
   align-items: center; /* Centers items vertically and horizontally */
 }
