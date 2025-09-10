@@ -129,7 +129,7 @@ footer {
 
 .photo-side {
   flex: 1; /* Allows this container to grow and shrink */
-  text-align: center; /* Centers the image within its container */
+  text-align: right; /* Centers the image within its container */
 }
 
 .photo-side img {
