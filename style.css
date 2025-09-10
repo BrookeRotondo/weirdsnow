@@ -101,10 +101,53 @@ footer {
 
 /* Style for the home page background only */
 .home-page {
-    background-image: url('mountains.jpg');
+    background-image: url('image4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   /* Optional: keeps the image in place when scrolling */
     background-attachment: fixed;
 }
 
+/* Style for the about page layout */
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.about-content {
+  display: flex; /* Makes the children flexible */
+  flex-direction: column; /* Stacks text and photo vertically on mobile */
+  gap: 2rem; /* Adds space between the text and photo */
+  align-items: center; /* Centers items vertically and horizontally */
+}
+
+.text-side {
+  flex: 1; /* Allows this container to grow and shrink */
+}
+
+.photo-side {
+  flex: 1; /* Allows this container to grow and shrink */
+  text-align: center; /* Centers the image within its container */
+}
+
+.photo-side img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Optional: adds rounded corners to the image */
+}
+
+/* Media query for larger screens (e.g., desktops) */
+@media (min-width: 768px) {
+  .about-content {
+    flex-direction: row; /* Arranges the text and photo in a row */
+  }
+
+  .text-side {
+    order: 1; /* Sets the order for the text to appear first */
+  }
+
+  .photo-side {
+    order: 2; /* Sets the order for the photo to appear second (to the right) */
+  }
+}
