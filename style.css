@@ -6,7 +6,7 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: #000;
   color: #fff;
-  line-height: 1.6;
+  line-height: 1.6
 }
 
 header {
@@ -96,3 +96,15 @@ footer {
   font-size: 0.9rem;
   margin-top: 3rem;
 }
+
+/* Other styles for your website */
+
+/* Style for the home page background only */
+.home-page {
+    background-image: url('mountains.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  /* Optional: keeps the image in place when scrolling */
+    background-attachment: fixed;
+}
+
