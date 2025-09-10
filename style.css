@@ -101,11 +101,12 @@ footer {
 
 /* Style for the home page background only */
 .home-page {
-    background-image: url('image4.jpg');
+    background-image: url('images/image4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-  /* Optional: keeps the image in place when scrolling */
+  /* Optional: keeps the image in place when scrolling 
     background-attachment: fixed;
+  */
 }
 
 /* Style for the about page layout */
